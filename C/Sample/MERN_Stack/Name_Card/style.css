@@ -1,0 +1,19 @@
+#a{
+    display: inline-block;
+    border: 2px solid black;
+    margin-right: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+#men{
+    height: 200px;
+    width: 200px;
+}
+#women{
+    height: 200px;
+    width: 200px;
+}
+#a:hover{
+    box-shadow: 5px 5px 8px black;
+    transition: 1s ease-in ;
+    border-radius: 25px;
+}

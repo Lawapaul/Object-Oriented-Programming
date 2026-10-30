@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+    height: 60px;
+    background-color: black;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 0.9em;
+}
+.imag{
+    height: 50px;
+}
+input[type="text"]{
+    width: 100vh;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 0px solid white;
+    padding-left: 10px;
+}
+.icond{
+    display: flex;
+    align-items: center;
+    margin-left: -23px;   
+}
+#final{
+    text-align: center;
+    line-height: 1;
+    
+}
+#drop{
+    height: 40px;
+    border: 0px solid white;
+    background-color: whitesmoke;
+    padding-left: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.searchbox{
+    display: flex;
+}
+.search{
+    height: 40px;
+    width: 40px;
+    background-color: #e0e007;
+    color: black;
+    text-align: center;
+    padding-top: 6px;
+    border: 2px solid  #e0e007;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.men{
+    background-color: black;
+    border: 0px solid black;
+    color: white;
+}
+i.flag-us:before, i.flag-america:before, i.flag-united-states:before {
+    background-position: -72px -1950px !important;
+}
+i.flag::before {
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    content: "";
+    background: url(https://mdbootstrap.com/img/svg/flags.png) no-repeat -108px -1976px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+i.flag:not(.icon) {
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    margin: 0 .5em 0 0;
+    line-height: 11px;
+    text-decoration: inherit;
+    vertical-align: baseline;
+    backface-visibility: hidden;
+}
+
+
+.navigation{
+    height: 40px;
+    background-color:#222F3D;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px;
+
+}
+.navbar{
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+#corner{
+    position: absolute;
+    right: 10px;
+}
+#menubar{
+    position: relative;
+    margin-right: 5px;
+}
+.background{
+    height: 300px;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+#india{
+    display: flex;
+    height: 30px;
+    background-color: white;
+    line-height: 2;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    background-color: #e8e8e8;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    font-size: 0.98em;
+    font-weight: 500;
+}
+.content1{
+    height: 15%;
+    font-size: 1.5em;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+.img{
+    background-image: url(box1_image.jpg);
+    height: 70%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: cover;
+}
+.img1{
+    background-image: url(box2_image.jpg);
+    height: 70%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: cover;
+}
+.img2{
+    background-image: url(box3_image.jpg);
+    height: 70%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: cover;
+}
+.img3{
+    background-image: url(box4_image.jpg);
+    height: 70%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: cover;
+}
+.img4{
+    background-image: url(box5_image.jpg);
+    height: 70%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: cover;
+}
+.img5{
+    background-image: url(box6_image.jpg);
+    height: 70%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: cover;
+}
+.img6{
+    background-image: url(box7_image.jpg);
+    height: 70%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: cover;
+}
+.img7{
+    background-image: url(box8_image.jpg);
+    height: 70%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-size: cover;
+}
+.backontop{
+    background-color: #37475a;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5;
+    color: white;
+    font-size: 0.9em;
+}
+.bottombar{
+    height: 100%;
+    background-color: #222F3D;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+
+}
+.bn{
+    padding: 20px;
+    line-height: 2.5;
+}
+.logoend{
+    height: 75px;
+    background-color: #222F3D;
+    border-top: 1px solid white;
+    text-align: center;
+    line-height: 2px;
+    padding-top: 10px;
+}
+.logod{
+    height: 60px;
+    line-height: 2px;
+}
+.copyright{
+    height: 90px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 0.8em;
+
+}
+.Deliver{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Deliver:hover{
+    border: 1px solid white;
+}
+.flag{
+    padding:5px
+}
+.flag:hover{
+    border: 1px solid white;
+}
+.sing:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.return:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.cart:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.navbar:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+#corner:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.backontop:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+

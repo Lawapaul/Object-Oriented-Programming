@@ -1,0 +1,1 @@
+../build-Debug/Even_Odd/main.cpp.o: main.cpp

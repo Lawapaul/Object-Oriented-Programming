@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    
+    
+}
+.heading{
+    text-align: center;
+}
+.box{
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+    position: relative;
+    left: 470px;
+    top: 100px;
+    
+}

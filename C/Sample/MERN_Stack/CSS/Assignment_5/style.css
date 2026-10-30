@@ -1,0 +1,22 @@
+.inner{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 3.5em;
+    text-align: center;
+    background-color: grey;
+    border-radius: 10%;
+    
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid grey;
+    border-radius: 10%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+}

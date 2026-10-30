@@ -1,0 +1,16 @@
+Imagine you are designing a software system for a university that manages information about faculty, staff, 
+and students. Each category has common attributes like name, age, and address which are declared in person 
+class. Faculty, staff, and student classes have specific attributes unique to their roles. For example, 
+faculty members have a department they belong to, staff members have a designation like "clerk" or 
+"technician" and students have a field of study and a student ID. 
+Use appropriate inheritance in C++ programming and design a system that represents these entities with 
+appropriate attributes and methods. Ensure that common attributes and methods are inherited from a base class,
+while each specific category inherits from the base class and adds its unique attributes and methods. 
+Additionally, provide functionality to input and display information for each entity type.
+Include member functions for the following operations: 
+  
+  i. Input informition for faculty, staff, and students
+  ii. Display information for faculty, staff, and students.
+  iii. Process university details, such as calculating the average age of 
+  faculty/staff/students, listing all members of a particular department, and listing all students in a given 
+  field of study 

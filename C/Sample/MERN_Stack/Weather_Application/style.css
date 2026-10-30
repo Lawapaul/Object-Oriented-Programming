@@ -1,0 +1,116 @@
+body{
+    background-color: #222;
+    font-family: "Ubuntu", sans-serif;
+}
+.container{
+    width: 90%;
+    max-width: 470px;
+    height: min-content;
+    margin: 120px auto;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    border-radius: 20px;
+}
+.search{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input[type="text"]{
+    width: 70%;
+    height: 3em;
+    border: 0px solid;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 1em;
+    color: #555;
+    background-color: #fff;
+    font-size: 1em;
+}
+.btn_search{
+    font-size: 1.25em;
+    padding: 14px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.btn_search i{
+    color: #555;
+}
+input[type="text"]:focus{
+    border: none;
+}
+.weather{
+    display: none;
+}
+.imag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temp{
+    text-align: center;
+    font-size: 1.75em;
+    color: #fff;
+    line-height: 0.8;
+}
+.imag img{
+    height: 150px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.humidity img{
+    height: 2.5em;
+    color: white;
+}
+.humidity{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+.text{
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 10px;
+    color: #fff;
+}
+.percent{
+    font-size: 2em;
+
+}
+.wind{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+.wind img{
+    height: 2.5em;
+    color: white;
+}
+
+.text_change{
+    text-transform: capitalize;
+}
+.container h5{
+    color: white;
+}
+.city{
+    text-transform: lowercase;
+}
+.city::first-letter{
+    text-transform: uppercase;
+}
+h3{
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
